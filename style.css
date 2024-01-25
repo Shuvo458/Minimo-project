@@ -1,0 +1,104 @@
+/*common start*/
+body{
+    margin: 0;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common end*/
+/* header start */
+header{
+    padding: 30px 0;
+    border: 1px solid red;
+
+}
+.container{ 
+   margin: 0 auto;
+   width: 90%;
+   overflow: hidden;
+   border: 1px solid green;
+}
+.logo{
+    width: 10%;
+    float: left;
+    padding-top: 15px;
+    border: 1px solid green;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+
+.menu{
+    margin-top: 1px;
+    width: 70%;
+    float: right;
+    border: 1px solid green;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 45px;
+    font-size: 15px;
+    color: #626262;
+    text-decoration: none;
+    display: inline-block;
+    /*text-transform: uppercase;*/
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+
+}
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/* header end */
+/* banner start */
+.banner{}
+.b_ img{}
+.b_img img{
+    width: 100%;
+}
+/* banner end */
+/* getawey start */
+.getawey{
+    padding: 90px 0;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid red;
+}
+
+.g_content{ }
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #626262;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin: O;
+    line-height: 24px;
+}
+.m_40{
+    margin-top: 40px;
+}
+/* getawey end */
